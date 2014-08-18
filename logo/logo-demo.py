@@ -1,15 +1,13 @@
-from tealight.logo import (move, turn,
-                           pen_down, pen_up,
-                           show_turtle, hide_turtle,
-                           color, speed)
+from tealight.logo import (move, 
+                           turn,
+                           color)
 
-
-print "This is logo mode!"
+print "This is tealight!"
 
 colors = ["red", "blue", "green"]
 
 for i in range(10,200,5):
   move(i)
-  turn(80)
+  turn(83)
   c = colors[(i / 5)%3]
   color(c)
