@@ -1,7 +1,9 @@
 from tealight.art import (color, line, spot, circle, box, image, text, background)
 
-x = 600
-y = 400
+from tealight.art import screen_width, screen_height
+
+x = screen_width / 2
+y = screen_height / 2
 vx = 0
 vy = 0
 ax = 0
